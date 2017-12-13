@@ -1,4 +1,6 @@
-FROM openjdk:8-alpine
+#FROM openjdk:8-alpine
+FROM mycluster.icp:8500/default/openjdk:8-alpine
+
 VOLUME /tmp
 
 EXPOSE 8080
